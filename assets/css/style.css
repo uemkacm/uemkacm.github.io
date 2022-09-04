@@ -342,11 +342,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 30px;
 }
 .rotate45 {
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
+  height: 200px;
 }
 #hero h2 {
   margin: 0 0 30px 0;
@@ -1163,13 +1159,19 @@ section {
 # Events/Pricing section
 --------------------------------------------------------------*/
 .pricing .box {
-  padding: 20px;
   background: #fff;
   text-align: center;
   border-radius: 8px;
   position: relative;
   overflow: hidden;
   border: 1px solid #fff;
+  width: 400px;
+  justify-content: center;
+  margin-left: 5vw;
+}
+
+.pricing .boxes{
+  display: flex;
 }
 
 .pricing .box h3 {
@@ -1262,7 +1264,7 @@ section {
   border-color: #0e66ca;
 }
 
-.pricing .recommended-badge {
+/* .pricing .recommended-badge {
   position: absolute;
   top: 5px;
   left: 50%;
@@ -1275,7 +1277,8 @@ section {
   border-radius: 50px;
   text-transform: uppercase;
   font-weight: 600;
-}
+} */
+
 
 /*--------------------------------------------------------------
 # Contact section
